@@ -6,13 +6,13 @@ vi ~/.azure/credentials
 
 [default]
 
-subscription_id=02ac19d2-71ae-471d-b697-97daef2db017
+subscription_id=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-client_id=9a8e6324-d089-4e0e-9813-aa3f1033bf97
+client_id=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-secret=AOABcdS6o-~Dr~-pF2kkMvRG5Dkk5Vp05B
+secret=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-tenant=9fed2f53-5a20-4591-90a3-f5ae7b78a43b
+tenant=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 
@@ -44,7 +44,7 @@ az login --service-principal --username APP_ID --password PASSWORD --tenant TENA
 
 Example:
 ========
-az login --service-principal -u 163b8e4e-a37a-4e78-8a6d-5982bef1679d -p 9LMys6iiCI_O1eqdTOUm1-j9Xsal-4Nww_ --tenant 4cbf2611-65be-47f1-86fd-67484bf871e6
+az login --service-principal -u XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -p XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX --tenant XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 
