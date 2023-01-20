@@ -1,0 +1,50 @@
+# Create a azure hidden directory
+mkdir ~/.azure
+
+# Create Credentials file in hidden azure directory for storing azure service_principle and azure subscription_id credentials
+vi ~/.azure/credentials
+
+[default]
+
+subscription_id=02ac19d2-71ae-471d-b697-97daef2db017
+
+client_id=9a8e6324-d089-4e0e-9813-aa3f1033bf97
+
+secret=AOABcdS6o-~Dr~-pF2kkMvRG5Dkk5Vp05B
+
+tenant=9fed2f53-5a20-4591-90a3-f5ae7b78a43b
+
+
+
+
+Azure CLI:
+=========
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+
+ServicePrincipal Creation:
+============================
+Syntax:
+=========
+az ad sp create-for-rbac --name ServicePrincipalName
+
+
+Example:
+=========
+az ad sp create-for-rbac --name Demo-Appreg
+
+
+
+Login By ServicePrinciple Command:
+=================================
+Syntax:
+========
+az login --service-principal --username APP_ID --password PASSWORD --tenant TENANT_ID
+
+
+Example:
+========
+az login --service-principal -u 163b8e4e-a37a-4e78-8a6d-5982bef1679d -p 9LMys6iiCI_O1eqdTOUm1-j9Xsal-4Nww_ --tenant 4cbf2611-65be-47f1-86fd-67484bf871e6
+
+
+
