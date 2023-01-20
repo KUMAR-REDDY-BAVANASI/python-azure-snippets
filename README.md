@@ -28,7 +28,7 @@ source bin/activate
 Step3:  Clone the repository
 ======
 
-git clone https://github.com/KUMAR-BAVANASI/Azure_Python.git
+git clone https://github.com/KUMAR-REDDY-BAVANASI/python-azure-snippets.git
 
 
 Step4:  Install the dependencies using pip.
